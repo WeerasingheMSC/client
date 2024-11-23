@@ -1,5 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
-  margin: 0;
+  padding: 2rem 14%;
+  background-image: url('./background.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+ ; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+
+  color: black;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
